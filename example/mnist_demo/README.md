@@ -90,7 +90,7 @@ leader训练镜像和follower训练镜像(参见[DockerFile](../../DockerFile))
 
 配置conf/ResourceManager/k8s.conf
 
-修改proxy配置(默认8002端口), coordinator配置(默认6666端口), 镜像信息，模型目录
+修改proxy配置(默认8002端口), coordinator配置(默认6666端口), 镜像信息，模型目录 
 
 5. 提交训练任务
 
