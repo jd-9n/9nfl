@@ -34,6 +34,7 @@ cp pywrap_dlopen_global_flags.py fl-env/lib/python3.6/site-packages/tensorflow_c
 ```
 
 如果不打算使用virutalenv, 请确保tensorflow版本为1.15且protobuf版本为3.8.0.
+
 然后下载[pywrap_dlopen_global_flags.py](https://github.com/tensorflow/tensorflow/blob/r1.15/tensorflow/python/pywrap_dlopen_global_flags.py)并拷贝到tensorflow目录, 例如`site-packages/tensorflow_core/python/`
 
 2. 运行mnist demo
