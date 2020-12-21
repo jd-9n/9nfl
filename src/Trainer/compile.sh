@@ -14,7 +14,6 @@
 copy_file(){
 
     TENSORFLOW=$1
-    JDFL=${TENSORFLOW}/tensorflow/contrib/jdfl
     mkdir ${JDFL}
     cp BUILD ${JDFL}
     cp -r kernels ${JDFL}
